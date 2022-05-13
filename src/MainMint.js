@@ -319,7 +319,6 @@ const MainMint = ({ accounts, setAccounts }) => {
                         alignSelf="center" 
                         align="center"
                         justifyContent="center"
-                        borderWidth="med"
                         borderRadius="20px"
                     >
                     <ModalHeader></ModalHeader>
@@ -342,7 +341,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                             pt="6%" 
                             pb="6%"
                         >
-                            <img src={alien} alt="aliens" border="solid pink"  />
+                            <img src={alien} alt="aliens" />
                         </Flex>
                         <Box 
                             p="10 15% 0"
