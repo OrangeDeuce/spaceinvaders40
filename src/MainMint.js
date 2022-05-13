@@ -273,7 +273,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                             fontStyle="italic"
                             color="white"
                         >
-                            Bored of your NFT bag?  The future is NOW.  Liven up your profile-pic game with a newly minted space alien invader from a unique random collection of 4,800!  Mint a space alien be the envy of CT today!
+                            Test! Bored of your NFT bag?  The future is NOW.  Liven up your profile-pic game with a newly minted space alien invader from a unique random collection of 4,800!  Mint a space alien be the envy of CT today!
                         </Text>
                         <Stack>
                             <Text
