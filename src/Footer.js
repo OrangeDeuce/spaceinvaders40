@@ -1,7 +1,5 @@
 import React from 'react';
-import { Box, Flex, Text, Image, HStack, VStack, Spacer, Stack, useMediaQuery, Link } from '@chakra-ui/react';
-
-
+import { Box, Flex, Text, Image, Stack, useMediaQuery, Link } from '@chakra-ui/react';
 import { ChakraProvider } from '@chakra-ui/provider';
 import aliencollage from './assets/background/AliensCollage_transparent.png';
 import logo_light from './assets/misc/spaceinvaders_logo_light.png';

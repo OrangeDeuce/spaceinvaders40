@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import "./App.css";
 import MainMint from './MainMint';
-import NavBar from './NavBar';
 import Header from './Header';
 import Footer from './Footer';
 import { Box } from '@chakra-ui/react';

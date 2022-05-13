@@ -1,6 +1,6 @@
 import React from 'react'
 import logo_color from './assets/misc/spaceinvaders_logo_color.png';
-import { Box, Flex, HStack, Image, Text, VStack, Center, Spacer, useMediaQuery, Hide } from "@chakra-ui/react";
+import { Box, Flex, Image, Text, VStack, Spacer, useMediaQuery, Hide } from "@chakra-ui/react";
 
 export default function Header() {
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");

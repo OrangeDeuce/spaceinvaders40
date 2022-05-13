@@ -1,6 +1,6 @@
 import { useState } from "react";
 import {ethers, BigNumber } from 'ethers';
-import { Box, Button, Flex, Input, Text, Image, useMediaQuery, Stack, Container, VStack } from "@chakra-ui/react";
+import { Box, Button, Flex, Input, Text, Image, useMediaQuery, Stack, Container } from "@chakra-ui/react";
 import spaceInvaders40 from './SpaceInvaders40.json';
 import alien from "./assets/misc/alien.svg";
 import alienbw from  "./assets/misc/Alien_Image_BW.png";
@@ -9,8 +9,7 @@ import confetti from "./assets/misc/icons8-confetti-48.png";
 import {
     List,
     ListItem,
-    ListIcon,
-    UnorderedList,
+    ListIcon
   } from '@chakra-ui/react';
 
 import {CheckCircleIcon} from '@chakra-ui/icons';
@@ -51,7 +50,6 @@ const MainMint = ({ accounts, setAccounts }) => {
     const [isMinting, setIsMinting] = useState(false);
     const [ isConnecting, setIsConnecting ] = useState(false);
     const {isOpen, onOpen, onClose} = useDisclosure();
-    const [isSmallScreen] = useMediaQuery("(min-width:400)");
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
     const [isMiddleScreen] = useMediaQuery("(min-width:768px)");
     
