@@ -16,7 +16,7 @@ contract SpaceInvaders40 is ERC721, Ownable {
 
 
 	constructor() payable ERC721('SpaceInvaders40', 'SPACE40') {
-		mintPrice = 0.00002 ether;
+		mintPrice = 0.5 ether;
 		totalSupply = 0;
 		maxSupply = 1000;
 		maxPerWallet = 3;
