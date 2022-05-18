@@ -3,7 +3,6 @@ import { Box, Flex, Text, Image, Stack, useMediaQuery, Link } from '@chakra-ui/r
 import { ChakraProvider } from '@chakra-ui/provider';
 import aliencollage from './assets/background/AliensCollage_transparent.png';
 import logo_light from './assets/misc/spaceinvaders_logo_light.png';
-import './Footer.css';
 import opensea from './assets/misc/opensea_logo_trans.png';
 
 
