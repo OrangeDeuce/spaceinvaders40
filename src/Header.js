@@ -9,9 +9,9 @@ export default function Header() {
         <VStack width="100%">
             <Hide breakpoint='(max-width: 600px)'>
                 <Flex height="20px" color="white" mt="3%"  width="100%" justifyContent="center">
-                    <Text whiteSpace="nowrap" pl="3%">HI-SUPPLY: 4,800 NFTS</Text>    
+                    <Text whiteSpace="nowrap" pl="3%">HI-SUPPLY: 40 NFTS</Text>    
                     <Spacer />
-                    <Text whiteSpace="nowrap" pr="3%">.5 MATIC PER MINT</Text>
+                    <Text whiteSpace="nowrap" pr="3%">.00002 MATIC PER MINT</Text>
                 </Flex>
             </Hide>
             <Box align="center">
