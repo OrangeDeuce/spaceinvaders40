@@ -1,5 +1,5 @@
 import React from 'react'
-import logo_color from './assets/misc/spaceinvaders_logo_color.png';
+import logo_color from './assets/misc/spaceinvaders_logo_color_mumbai.png';
 import { Box, Flex, Image, Text, VStack, Spacer, useMediaQuery, Hide } from "@chakra-ui/react";
 
 export default function Header() {
