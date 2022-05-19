@@ -1,8 +1,8 @@
-# Welcome to Space Invaders 4.8K! (Mumbai Testnet version only!) 👽
+# Welcome to Space Invaders 40! (_Mumbai Testnet version only_!) 👽
 (Note: Repo for the full collection of 4,800 NFTs on Polygon Mainnet available [here](https://github.com/OrangeDeuce/spaceinvaders4800))
 ## Space Invaders 4.8K is an NFT minting dapp on Polygon that represents 4,800 unique space alien NFT's that anyone can publicly mint for only .5 MATIC!  
 
-## Live link: [SpaceInvaders4800](https://master--spaceinvaders4800.netlify.app/)
+## Live link: [SpaceInvaders40](https://spaceinvaders40.netlify.app/)
 
 ## General build specs:
 1. _NFT Collection_: 4,800 NFTs
