@@ -1,5 +1,5 @@
 <h1 align="center">
- 👽 Welcome to Space Invaders 40! (_Mumbai Testnet version only_!) 👽
+ 👽 Welcome to Space Invaders 40! (Mumbai Testnet version only!) 👽
 </h1>
 
 (**Note**: Repo for the full collection of the _original_ SpaceInvader 4,800 NFTs on Polygon Mainnet available [here](https://github.com/OrangeDeuce/spaceinvaders4800))
