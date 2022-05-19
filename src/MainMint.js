@@ -105,7 +105,8 @@ const MainMint = ({ accounts, setAccounts }) => {
             {isConnected ? (
                 <Flex width="100%">
                     <Flex
-                        padding="10%"
+                        //padding="10%"
+                        m={isMiddleScreen ? "5% 20% 6%" : "10% 8% 3%"}
                         width="100%"
                         h="auto"
                         direction={isMiddleScreen ? "row" : "column"}
@@ -127,7 +128,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                             >
                                 <Image 
                                     src={alienbw} 
-                                    width={isNotSmallerScreen ? "50%" : "35%"} 
+                                    width={isNotSmallerScreen ? "40%" : "35%"} 
                                     height="auto">    
                                 </Image>
                             </Box>
@@ -142,7 +143,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                                 <Box 
                                     direction="column" 
                                     fontFamily="vt323" 
-                                    fontSize={isNotSmallerScreen ? "2em" : "1.5em"} 
+                                    fontSize={isNotSmallerScreen ? "1.5em" : "1.5em"} 
                                     bgColor="black"
                                     mb="10%"
                                 >
@@ -214,7 +215,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                             bgColor="rgb(22, 88, 141)" 
                             color="white"
                             borderRadius={isMiddleScreen ? "0 20px 20px 0"  : "0 0 20px 20px"}
-                            width={isMiddleScreen ? "40%" : "90%"}
+                            width={isMiddleScreen ? "50%" : "90%"}
                             height={isMiddleScreen ? "110%" : "150%"}
                             mb={isMiddleScreen ? 0 : "5%"}
                         >
@@ -222,7 +223,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                             <Text
                                 p="5% 10%"
                                 mt={isMiddleScreen ? "10%" : "3%"}
-                                fontSize={isMiddleScreen ? "3em" : "2em"}
+                                fontSize={isMiddleScreen ? "2em" : "2em"}
                                 fontFamily="vt323"
                                 fontStyle="italic"
                                 color="white"
@@ -252,7 +253,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                 <Flex justify="center" align="center">
                     <Box 
                         bgColor="rgb(29, 117, 188)"  
-                        m={isMiddleScreen ? "5% 20% 3%" : "10% 8% 3%"}
+                        m={isMiddleScreen ? "2.5% 30% 6%" : "10% 8% 3%"}
                         borderRadius="20px" 
                         w="100%"
                     >
@@ -286,7 +287,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                             <Container pb="10%">
                                 <Button 
                                     backgroundColor="rgb(129, 28, 128)"
-                                    width={isMiddleScreen ? "45%" : "50%" }
+                                    width={isMiddleScreen ? "50%" : "50%" }
                                     height="auto"
                                     borderRadius="5px"
                                     boxShadow="0px 2px 2px 1px #0F0F0F"
@@ -313,8 +314,8 @@ const MainMint = ({ accounts, setAccounts }) => {
                     <ModalOverlay />
                     <Box>
                     <ModalContent 
-                        width={isMiddleScreen ? "40%" : "70%"} 
-                        height ={isMiddleScreen ? "95%" : isNotSmallerScreen ? "80%" : "70%"}
+                        width={isMiddleScreen ? "30%" : "70%"} 
+                        height ={isMiddleScreen ? "75%" : isNotSmallerScreen ? "80%" : "70%"}
                         backgroundColor='#D6517D' 
                         alignSelf="center" 
                         align="center"
@@ -326,7 +327,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                     <ModalBody 
                         color='white' 
                         alignItems="center" 
-                        mt="10%" >
+                    >
                         <Flex 
                             justify="center" 
                             mt="5%"
@@ -367,7 +368,7 @@ const MainMint = ({ accounts, setAccounts }) => {
                     </ModalBody>
 
                         <ModalFooter
-                            mb="10%" 
+                            pb="10%" 
                             height="100%">
                             <a href="/">
                                 <Button colorScheme="blackAlpha" onClick={onClose}>Close</Button>
