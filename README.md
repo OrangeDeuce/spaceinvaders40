@@ -1,4 +1,7 @@
-# 👽 Welcome to Space Invaders 40! (_Mumbai Testnet version only_!) 👽
+<h1 align="center">
+ 👽 Welcome to Space Invaders 40! (_Mumbai Testnet version only_!) 👽
+</h1>
+
 (**Note**: Repo for the full collection of the _original_ SpaceInvader 4,800 NFTs on Polygon Mainnet available [here](https://github.com/OrangeDeuce/spaceinvaders4800))
 ## Space Invaders 40 is my practice NFT minting dapp on Polygon that represents 40 unique space alien NFT's that anyone can publicly mint for only .00002 MATIC!  
 
